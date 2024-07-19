@@ -7,8 +7,7 @@ export interface IRequest {
 }
 
 export const initialAxios = Axios.create({
-  // baseURL: process.env.URL_BASE_SERVER,
-  baseURL: "http://localhost:9999/api",
+  baseURL: process.env.URL_BASE_SERVER,
 });
 
 const Api = {
